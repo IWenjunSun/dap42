@@ -50,6 +50,8 @@
 #define nBOOT0_GPIO_PORT GPIOF
 #define nBOOT0_GPIO_PIN  GPIO11
 
+#define WINUSB_AVAILABLE 0
+
 #include <libopencm3/stm32/usart.h>
 /* Workaround for non-commonalized STM32F0 USART code */
 #ifndef USART_STOPBITS_1
